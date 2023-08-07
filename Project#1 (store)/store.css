@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+
+#head {
+    display: flex;
+    height: 7vh;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffdecb;
+    color: #4d4d4d;
+    font-style: italic;
+    padding: 0 2% 0 2%;
+
+}
+
+#head div i:hover {
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+
+
+#catagorys { 
+    display: flex;
+    color: #4d4d4d;
+    background-color: #FFBF9B;
+    justify-content: space-around;
+
+    align-items: center;
+
+}
+
+#nav {
+    display: flex;
+}
+
+#catagorys button  {
+    border: solid #4d4d4d;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #FFBF9B;
+}
+
+#search {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    
+} 
+
+#search input {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 5px;
+    margin:  5px;
+} 
+
+#ser {
+    background-color: lightgray;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 235, 235);
+    padding-top: 10px;
+    color:  #4d4d4d;
+
+}
+
+main {
+    background-color: rgb(243, 235, 235);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#card {
+    height: 300px;
+    width: 200px;
+    margin: 60px 30px 30px 30px;
+    /* border: #4d4d4d solid; */
+    box-sizing: content-box;
+    background-color: white;
+    border-radius: 15px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+#cardBottom {
+    background-color: #ffdecb;
+    height: 60%;
+    width: 100%;
+    padding: 20px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color:  #4d4d4d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+
+
+
+    
+
+}
+
+#image {
+    height: 60%;
+    width: 100%;
+    padding: 5px 30px 5px 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.material-icons {
+    justify-content: start;
+    align-items: end;
+}
+
+#footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    margin: 25vh;
+}
+
+
+#call {
+    border: solid #ffdecb 1px;
+    border-radius: 50%;
+    justify-content: center;
+    margin: 15px;
+    padding: 5px
+
+}
+
+#foot {
+    display: flex;
+    background-color: #4d4d4d;
+    color: #ffdecb;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    font-family:  Calibri;
+}
+

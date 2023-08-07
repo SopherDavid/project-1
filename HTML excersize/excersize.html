@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+  <title>Have an amazing day!</title>
+  <link rel="stylesheet" href="excersize.css">
+</head>
+<body>
+  <div class="video-wrapper">
+    <video playsinline autoplay muted loop poster="Desktop_DB12_hook_15seconds.mp4">
+      <source src="/Users/davud/kodcode/vscode/אסטון מרטין/Desktop_DB12_hook_15seconds.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+    <h1> מידע משתמש </h1>
+    <div >
+      <label for = "name"> שם:  </label>
+      <input id="name" type="text" name = "name" pattern maxlength="50" placeholder="הכנס את שמך" required>
+    </div>
+    <div>
+      <label for = "email">אימייל:  </label>
+      <input id="email" type = "email" name = "email"  placeholder ="הכנס את כתובת המייל שלך" required>
+
+    </div>
+    <div>
+      <label for = "password">סיסמא:  </label>
+      <input id="password" type = "password"  minlength="8" name = "password"  placeholder ="הכנס סיסמא" required>
+
+    <div>
+      <label for = "gender">  מין:  </label>
+      <input  id="gender" type="radio" name="gender" checked> זכר
+      <input id="gender" type="radio" name="gender"> נקבה
+    </div>
+
+    <label for = "select"> מדינה: </label>
+    <select>
+        <option value="USA" > ארה״ב </option>
+        <option value="UK" > בריטניה </option>
+        <option value="SKANDINAVIA" > סקנדינביה </option>
+        <option value="AUSTRALIA" > אוסטרליה </option>
+        <option value="THAILAND" > תאילנד </option>
+    </select>
+   <div>
+    <label for ="age" >גיל:  </label>
+      <input type="number" name= "age" pattern min="18" max="120" required>
+   </div>
+    <div>
+        <label for="address"> כתובת: </label>
+        <input id="address" type="text" name="address">
+    </div>
+    <div> 
+        <label for="telephon"> טלפון:</label>
+        <input id="telephon" type="tel" name="telephon" pattern maxlength="10" required>
+    </div>
+    <div>
+        <label for="DOB"> תאריך לידה: </label>
+        <input id="DOB" type="date" name="DOB">
+    </div>
+    <label for="color"> צבע: </label>
+    <input id="color" type="color" name="color">
+    <div> 
+        <label> 
+            <input type="checkbox" name="approve" />
+            אני מסכים לתנאי השימוש
+        </label>
+    </div>
+    <input type="button" value="שלח ">
+
+</body>
+</html>

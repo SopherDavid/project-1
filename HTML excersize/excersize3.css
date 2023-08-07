@@ -1,0 +1,43 @@
+
+
+h1 {
+    background: black;
+    color: white ;
+    text-align: center;
+}
+
+#what {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    background: gray;
+}
+a {
+    text-decoration: none;
+    color: azure;
+}
+#about {
+    color: red;
+    text-align: center;
+}
+h2 {
+    font-size: medium;
+}
+
+#learn {
+    background: blue;
+}
+
+#box {
+    background: yellow;
+    height: 100px;
+    width: 100px;
+    box-shadow:2px 2px rgba(72, 72, 79, 0.474);
+
+}
+
+#foot {
+    background: black;
+    color: white ;
+    text-align: center;
+}
