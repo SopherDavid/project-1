@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
-
 }
 
 
@@ -13,10 +11,10 @@
     justify-content: space-between;
     align-items: center;
     background-color: #ffdecb;
-    color: #4d4d4d;
     font-style: italic;
+    font-weight: bolder;
+    color: #4d4d4d;
     padding: 0 2% 0 2%;
-
 }
 
 #head div i:hover {
@@ -26,49 +24,67 @@
 
 
 
-#catagorys { 
+#categorys { 
     display: flex;
     color: #4d4d4d;
     background-color: #FFBF9B;
     justify-content: space-around;
-
     align-items: center;
-
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #4d4d4d;
 }
 
 #nav {
     display: flex;
 }
 
-#catagorys button  {
+#categorys button  {
     border: solid #4d4d4d;
     border-radius: 15px;
     margin: 5px;
     padding: 5px;
     background-color: #FFBF9B;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #4d4d4d;
 }
+
+#categorys  button:hover {
+    background-color: #F9F5EB;
+    border: solid #E4DCCF;
+    padding: 5px;
+    border: #4d4d4d solid;
+}
+
 
 #search {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border-radius: 15px;
     
 } 
+
+#search i {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 0;
+    margin:  0;
+    background-color: rgb(240, 240, 242);
+    border: solid #4d4d4d;
+} 
+
+#search i:hover {
+    background-color: rgb(216, 216, 216);
+}
 
 #search input {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    padding: 5px;
-    margin:  5px;
+    padding: 3.4px;
+    width: 230px;
 } 
-
-#ser {
-    background-color: lightgray;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
 
 h1 {
     display: flex;
@@ -90,18 +106,21 @@ main {
 
 
 #card {
-    height: 300px;
+    height: 350px;
     width: 200px;
-    margin: 60px 30px 30px 30px;
+    margin: 60px 60px 30px 30px;
     /* border: #4d4d4d solid; */
     box-sizing: content-box;
     background-color: white;
     border-radius: 15px;
- box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
+
+
+
 #cardBottom {
     background-color: #ffdecb;
-    height: 60%;
+    height: 45%;
     width: 100%;
     padding: 20px;
     border-bottom-right-radius: 15px;
@@ -110,21 +129,22 @@ main {
     align-items: center;
     font-weight: bold;
     color:  #4d4d4d;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
-
-
-
-    
-
 }
 
 #image {
-    height: 60%;
+    height: 55%;
     width: 100%;
     padding: 5px 30px 5px 30px;
     justify-content: center;
     align-items: center;
     
+}
+.icons:hover {
+    background-color: #F9F5EB;
+    border: solid #E4DCCF;
+    border-radius: 50%;
+    padding: 3px;
+
 }
 .material-icons {
     justify-content: start;
